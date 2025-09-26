@@ -22,6 +22,7 @@ body h1{
     text-align: center;
     font-family:  'Arial Narrow Bold';
 
+/*About content*/
 }
 .about-container{
     
@@ -142,6 +143,7 @@ header{
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
   margin-bottom: 0%;
+  padding: 15px;
 }
 
 .menu .box-container .box {
@@ -165,6 +167,17 @@ padding: 1rem 0;
   color: #fff;
   font-size: 2.5rem;
   padding: 5rem 0;
+}
+.menu .btn{
+    text-decoration:none;
+    background:#b3008c;
+    color:#fff;
+    padding:10px 15px;
+    border-radius:5px;
+    display:inline-block;
+    margin-top:10px;
+    font-weight:bold;
+    transition:background 0.3s;
 }
 
 /* Footer */
@@ -239,7 +252,7 @@ footer{
   padding: .5rem;
   font-size: 2rem;
 }
-
+/*Home section*/
 .home {
   background-position: left;
   justify-content: center;
